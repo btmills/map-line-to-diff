@@ -6,7 +6,7 @@ workflow "Build and Test" {
 action "Build" {
   uses = "actions/npm@1.0.0"
   runs = "yarn"
-  args = ["run", "typecheck"]
+  args = "run typecheck"
 }
 
 action "Test" {
