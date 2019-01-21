@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "@btmills/diff-parser",
+	"name": "@btmills/map-line-to-diff",
 	"version": "0.0.0",
 	"scripts": {
 		"build": "tsc",

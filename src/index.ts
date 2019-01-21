@@ -7,7 +7,7 @@ enum State {
 const fileRegex = /^\+\+\+ (?:b\/)?(.*)$/;
 const hunkRegex = /^@@ -\d+,\d+ \+(?<start>\d+),(?<count>\d+) @@/;
 
-export default function mapLine(
+export default function mapLineToDiff(
 	diff: string,
 	filename: string,
 	desiredLine: number,

@@ -1,4 +1,4 @@
-import mapLine from './';
+import mapLineToDiff from './';
 
 function t(
 	message: string,
@@ -9,7 +9,7 @@ function t(
 	describe(message, () => {
 		for (const [desired, expected] of mappings) {
 			test(`${desired} in file => ${expected} in diff`, () => {
-				expect(mapLine(diff, filename, desired)).toBe(expected);
+				expect(mapLineToDiff(diff, filename, desired)).toBe(expected);
 			});
 		}
 	});
