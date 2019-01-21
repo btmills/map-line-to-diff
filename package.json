@@ -6,7 +6,8 @@
 		"build": "tsc",
 		"clean": "rm -rf lib",
 		"format": "prettier --write './*.js' './*.json' 'src/**/*.ts'",
-		"test": "jest"
+		"test": "jest",
+		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"@types/jest": "^23.3.13",
