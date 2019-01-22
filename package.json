@@ -1,7 +1,18 @@
 {
-	"private": true,
 	"name": "@btmills/map-line-to-diff",
 	"version": "0.0.0",
+	"description": "Map file lines to Git diff locations.",
+	"keywords": ["git", "diff"],
+	"homepage": "https://github.com/btmills/map-lines-to-diff",
+	"bugs": "https://github.com/btmills/map-lines-to-diff/issues",
+	"license": "MIT",
+	"author": {
+		"name": "Brandon Mills",
+		"url": "https://github.com/btmills"
+	},
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"repository": "btmills/map-line-to-diff",
 	"scripts": {
 		"build": "tsc",
 		"clean": "rm -rf lib",
@@ -16,5 +27,8 @@
 		"prettier": "^1.15.3",
 		"ts-jest": "^23.10.5",
 		"typescript": "^3.2.4"
+	},
+	"engines": {
+		"node": ">=10.0"
 	}
 }
