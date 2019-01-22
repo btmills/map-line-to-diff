@@ -1,4 +1,4 @@
-import mapLineToDiff from './';
+import { mapLineToDiff } from './';
 
 function t(
 	message: string,

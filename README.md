@@ -34,7 +34,11 @@ diff --git a/testing.txt b/testing.txt
 ```
 
 ```js
-import mapLineToDiff from 'map-line-to-diff';
+// ES2015 modules import/export
+import { mapLineToDiff } from 'map-line-to-diff';
+// CommonJS require()
+const { mapLineToDiff } = require('map-line-to-diff');
+
 
 // Assume `diff` contains the diff above.
 const diff = '...';
