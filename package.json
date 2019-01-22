@@ -17,6 +17,9 @@
 		"build": "tsc",
 		"clean": "rm -rf lib",
 		"format": "prettier --write './*.js' './*.json' 'src/**/*.ts'",
+		"prepare": "npm run build",
+		"prepublishOnly": "npm test",
+		"postpublish": "npm run clean",
 		"test": "jest",
 		"typecheck": "tsc --noEmit"
 	},
