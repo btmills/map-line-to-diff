@@ -1,5 +1,5 @@
 {
-	"name": "@btmills/map-line-to-diff",
+	"name": "map-line-to-diff",
 	"version": "0.0.0",
 	"description": "Map file lines to Git diff locations.",
 	"keywords": ["git", "diff"],

@@ -7,7 +7,7 @@ When [submitting a pull request review via the GitHub API]( https://developer.gi
 ## Installation
 
 ```sh
-$ yarn install @btmills/map-line-to-diff
+$ yarn install map-line-to-diff
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ diff --git a/testing.txt b/testing.txt
 ```
 
 ```js
-import mapLineToDiff from '@btmills/map-line-to-diff';
+import mapLineToDiff from 'map-line-to-diff';
 
 // Assume `diff` contains the diff above.
 const diff = '...';
